@@ -15,4 +15,4 @@ First, it's a good idea to create a project location to house all the work you'r
 mkdir coderetreat
 cd coderetreat
 ``` 
-- Now let's create our 
+- Now let's create our first python test file.  Create a new file inside the coderetreat folder called `test.py`.
