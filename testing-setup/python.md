@@ -3,7 +3,7 @@
 
 This guide assumes you're using VSCode.  We recommend it as a full-featured IDE for Coderetreats, and suggest you install it prior to the day of your Coderetreat.  You can download it here: https://code.visualstudio.com/download. It's free, awesome, and very easy to install and use.
 
-This guide also assumes you have python installed.  To check it you have python installed, you can type `python -V`.
+This guide also assumes you have python installed.  To check if you have python installed, you can type `python -V`.
 
 First, it's a good idea to create a project location to house all the work you're going to be doing today.  Here's an example of creating one called `coderetreat`:
 
@@ -33,7 +33,7 @@ if __name__ == '__main__':
 ```
 This tells the Python interpreter how to run this test file if it's being run directly.
 
-- Now we're ready to start writing tests!  To make sure that all your setup is working properly, let's add a simple test so we have something to run.  Be sure that your test method starts with the word `test`:
+- Now we're ready to start writing tests!  To make sure that all you've setup is working properly, let's add a simple test so we have something to run.  Be sure that this and all other test methods start with the word `test`:
 ```
     def test_string_compare(self):
         a = 'a string'
@@ -41,7 +41,7 @@ This tells the Python interpreter how to run this test file if it's being run di
         self.assertEqual(a, b)
 ```
 - Save your `test.py` file
-- In the terminal window, check that you're still in the same directory as the `test.py` file you just saved, and type 
+- In the terminal window, check that you're still in the same directory as the file you just saved, and type 
 ```
 python test.py
 ```
@@ -66,4 +66,4 @@ Ran 1 test in 0.000s
 FAILED (failures=1)
 ```
 
-- (OPTIONAL) See if you can make the test pass, and run it again.
+- (Optional) See if you can make the test pass, and run it again.
