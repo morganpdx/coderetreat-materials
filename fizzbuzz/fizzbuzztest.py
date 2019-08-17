@@ -16,7 +16,7 @@ class fizzbuzztest (unittest.TestCase):
     def test_calculate_returns_buzz_with_multiples_of_5(self):
         self.assertEquals(calculate(5), 'buzz')
 
-    def test_calcualte_returns_fizzbuzz_with_multiples_of_15(self):
+    def test_calculate_returns_fizzbuzz_with_multiples_of_15(self):
         self.assertEquals(calculate(15), 'fizzbuzz')
 
     def test_result_for_zero(self):
