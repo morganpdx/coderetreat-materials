@@ -9,3 +9,11 @@ def calculate(number):
     elif (number % 5 == 0):
         return 'buzz'
     return str(number)
+
+def output_list():
+    output = ''
+
+    for x in range(1,21):
+        output = output + ' ' + calculate(x)
+
+    return str(output)

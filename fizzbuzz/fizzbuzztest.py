@@ -31,3 +31,8 @@ class fizzbuzztest (unittest.TestCase):
         result = calculate(-3)
         self.assertEqual(result, 'fizz')
 
+    def test_final_output(self):
+        result = output_list()
+        expected = ' 1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz'
+        self.assertEquals(result, expected)
+
