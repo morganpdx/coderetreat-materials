@@ -7,7 +7,7 @@ This guide also assumes you have python installed.  To check if you have python 
 
 First, it's a good idea to create a project location to house all the work you're going to be doing today.  Here's an example of creating one called `coderetreat`:
 
-- Open your VSCode window and click on the `x0 !0` icon in the bottom left corner of the window.  This will open a terminal window in VSCode; you can also select `View -> Terminal` or `Terminal -> New Terminal` from the menu.  VSCode will create a bash or powershell window, depending on whether you're using a Mac or Windows computer.
+- Open your VSCode window and click on the `x0 !0` icon in the bottom left corner of the window, in the blue status tray.  This will open a terminal window in VSCode; you can also select `View -> Terminal` or `Terminal -> New Terminal` from the menu.  VSCode will create a bash or powershell window, depending on whether you're using a Mac or Windows computer.
 - (Optional) Browse to the location you'd like to create this folder
 - Inside the terminal window, type the following:
 
