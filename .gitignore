@@ -1,6 +1,14 @@
+# IDE
 .vscode
+*.iml
+.idea
+
+# Sys
 .DS_Store
 
-fizzbuzz/video
-
+# Out
 *.pyc
+**/target
+
+# Misc
+fizzbuzz/video
